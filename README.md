@@ -54,7 +54,22 @@ Conference: mobile-first approach & responsive on desktop version and bigger siz
 
 
 ## 🛠 Built With <a name="built-with"></a>
-    
+   <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://www.javascript.com/">Javascript</a></li>
+  </ul>
+  
+### Tools i have used for this project <a name="tools"></a>
+@@ -81,7 +80,8 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
+      <ul>
+        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+        <li><a href="https://desktop.github.com/">Github Desktop</a></li>
+        <li><a href="https://www.figma.com/">Figma</a></li>
+        <li><a href="https://www.behance.net/">Behance</a></li>
+        <!-- <li><a href="https://www.figma.com/">Figma</a></li> -->
+      </ul>
+  </details>
     
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -62,23 +77,27 @@ Conference: mobile-first approach & responsive on desktop version and bigger siz
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://www.json.org/json-en.html">JSON</a></li>
   </ul>
 </details>
 
 
 ### Key Features <a name="key-features"></a>
 
-- **Displays my current status as a software developer**
-- **Lists my recent works**
-- **Showcases Languages, Frameworks and Skills**
+- **Button Interactions (i.e. hover, etc.)**
+- **Attractive Images & Design**
+- **Modal/dialog**
+- **Dynamic page (data is retrieved from JSON file)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
+
+
+
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Live Demo Link](https://rhk-microverse.github.io/My-Portfolio/)
+[Live Demo Link]()
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
