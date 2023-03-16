@@ -4,10 +4,10 @@
 
   <img src="./images/rhk-trading-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-
-  <h3><b>My Portfolio</b></h3>
-
+  <h3><b>Conference Project</b></h3>
 </div>
+
+<h1>Capstone Project Module-1</h1>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -33,14 +33,21 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Conference <a name="about-project"></a>
 
-> My Portfolio Page is a project initated in the first module first week of the Microverse program. The purpose of the project is to create a professional portfolio.
+This project is the Microverse first module capstone which will contain an invitation to prepared event by showcasing all activities and participants who will take a place!
 
+**Conference** is an Html,CSS&JavaScript-based project
+
+# Responsive website for communities events and particpants details <a name="about-project"></a>
+This project is about creating a responsive website to showcase community event, activities and agenda.
+
+<!-- > Describe your project in 1 or 2 sentences. -->
+Conference: mobile-first approach & responsive on desktop version and bigger size is the first capstone project in the process of experiences mimic real-world projects where we must apply what we learned throughout the entire Module, and are built with business specifications that will look really nice in our portfolio.
 
 ## 🛠 Walk through <a name="walk-through"></a>
 
-You can [watch the loom video](https://www.loom.com/share/4679e5bb203e4d5aa4aea6bb67035886) for the walkthrough of this of this project.
+
 
 
 ## 🛠 Built With <a name="built-with"></a>
