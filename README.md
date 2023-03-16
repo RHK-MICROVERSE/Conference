@@ -46,11 +46,16 @@ This project is about creating a responsive website to showcase community event,
 Conference: mobile-first approach & responsive on desktop version and bigger size is the first capstone project in the process of experiences mimic real-world projects where we must apply what we learned throughout the entire Module, and are built with business specifications that will look really nice in our portfolio.
 
 ## 🛠 Walk through <a name="walk-through"></a>
-
-
+<ul>
+  <li><a href="https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md">See the Project Requirement</a></li>
+  <li>You should personalize the content of your page. Choose a topic that is different than the one in the original design</li>
+  <li><a href="https://www.figma.com/file/V0vg37EZhAbP9nUPOeCy6p/HTML%2FCSS-%26-JavaScript-capstone-project---Conference-page?node-id=318%3A3&t=hYVDqW7zevqWK9z7-0">Assets are avialbe in Figma</a></li>
+  <li><a href="https://www.behance.net/adagio07">Original design idea by Cindy Shin in Behance.</a></li>
 
 
 ## 🛠 Built With <a name="built-with"></a>
+    
+    
 
 ### Tech Stack <a name="tech-stack"></a>
 
