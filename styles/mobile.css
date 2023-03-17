@@ -1,3 +1,521 @@
-body {
+.top-navbar,
+.top-nav-container,
+.desktop-nav-list {
+  display: none;
+}
+
+.mobile-header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.desktop-header {
+  display: none;
+}
+
+.mobile-logo {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+
+.mobile-nav {
+  padding: 9px 0 0 24px;
+}
+
+.mobile-nav > i {
+  font-size: 70px;
+}
+
+/* -------------------------------------- */
+
+/* STYLE FOR MOBILE MENU GOES HERE */
+
+.mobile-menu .menu {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0.001px;
+  right: 0.001px;
+  background-color: #0a0a09b2;
+  backdrop-filter: blur(5px);
+  z-index: 3;
+  padding: 2rem 2rem;
+}
+
+.mobile-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0.001px;
+  right: 0.001px;
+  background-color: #e5e5e5;
+  z-index: 2;
+}
+
+.mobile-menu ul li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.mobile-menu ul li a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  padding-left: 2rem;
+  margin-bottom: -1rem;
+}
+
+.close-menu {
+  position: absolute;
+  left: 65%;
+  top: 3.2%;
+}
+
+.close-menu > i {
+  color: #fff;
+  font-size: 50px;
+}
+
+.menu > ul {
+  padding-top: 5rem;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.cccampaign {
+  border: 5px solid rgb(255, 64, 0);
+  padding: 10px;
+  color: rgb(255, 64, 0) !important;
+  width: 40%;
+}
+
+/* END OF STYLE FOR MOBILE MENU */
+
+/* SECTION ONE STARTS HERE */
+.section-one {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 64, 0);
+  padding-bottom: 70px;
+  background-image: url("../images/2A_mainbg_desktop.png");
+}
+
+.container-greetings-title {
+  padding-left: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 92px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url('../images/red\ sun.jpg');
+}
+
+.message {
+  padding-left: 8.5px;
+  box-sizing: border-box;
+  max-width: 756px;
+  height: auto;
+  background: #f8f8f8;
+  border: 8.5px solid #fff;
+  background-color: rgb(194, 194, 194, 0.4);
+}
+
+.message-text {
+  max-width: 697px;
+  height: auto;
+  padding-left: 30px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.4902px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #515151;
+}
+
+.schedule {
+  height: auto;
+  padding-left: 18px;
+}
+
+.date-time {
+  font-family: 'Gothic A1', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 40px;
+  letter-spacing: -0.08em;
+  color: #595959;
+}
+
+.venue {
+  margin-left: 18px;
+}
+
+.venue-details {
+  font-family: 'Gothic A1', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27.6144px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #868686;
+  height: auto;
+}
+
+/* SECTION ONE ENDS HERE */
+
+/* MAIN PROGRAM STARTS HERE */
+.main-program {
+  background-color: #282b32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/3A_background_for_main_program.png");
+  background-repeat: repeat;
+  padding-bottom: 70px;
+}
+
+.main-program-title-line {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-program-title {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.main-program-line {
+  margin-top: -25px;
+  width: 51px;
+  height: 0;
+  border: 2px solid #a04038;
+}
+
+/* Card Starts here */
+.card-master {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1.5px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  width: 95%;
+}
+
+.card-details {
+  height: auto;
+}
+
+.card-container {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../images/5_card-img.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.card-icon {
+  flex: 0.3;
+  height: auto;
+}
+
+.card-title {
+  flex: 0.5;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #ff5438;
+  text-align: center;
+}
+
+.card-description {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #fff;
+  max-width: 310px;
+}
+
+/* Card ends here */
+
+.select-whole-program-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-whole-program {
+  display: none;
+}
+
+.join-cc-global-container {
+  width: 65%;
+  background: #ff4f38;
+  padding: 20px 50px;
+}
+
+.join-cc-global {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+/* MAIN PROGRAM ENDS HERE */
+
+/* FEATURED SPEAKERS STARTS HERE */
+.featured-speakers {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.featured-speakers-title {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: black;
+}
+
+.featured-speakers-line {
+  margin-top: -25px;
+  width: 51px;
+  height: 0;
+  border: 2px solid #a04038;
+}
+
+.speaker-master {
+  margin-top: 20px;
+}
+
+.first-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.first-row-card {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  padding-top: 30px;
+}
+
+.picture-master {
+  flex: 0.75;
+}
+
+.speaker-pic {
+  width: auto;
+}
+
+.description-details {
+  flex: 2;
+}
+
+.speaker-title {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: black;
+  padding: 0;
+}
+
+.speaker-title h1 {
   margin: 0;
 }
+
+.occupation {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.09em;
+  color: #f78c89;
+}
+
+.occupation p {
+  margin-bottom: 0;
+}
+
+.details {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: black;
+}
+
+.details p {
+  margin-top: 5px;
+}
+
+/* FEATURED SPEAKERS ENDS HERE */
+
+/* PARTNER STARTS HERE */
+.partners-master {
+  background: #414246;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners-title-line {
+  display: flex;
+  flex-direction: column;
+}
+
+.partners-title {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.partners-line {
+  margin-top: -25px;
+  width: 51px;
+  height: 0;
+  border: 2px solid #a04038;
+}
+
+.sponsors {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 10px;
+  width: 90%;
+}
+
+.google {
+  padding-top: 12px;
+}
+
+.daumkakao {
+  padding-top: 12px;
+}
+
+.airbnb {
+  padding-top: 14px;
+}
+
+/* PARTNER ENDS HERE */
+
+/* FOOTER STARTS HERE */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  padding-top: 54px;
+  padding-bottom: 30px;
+}
+
+.logo-footer {
+  width: 200px;
+  height: auto;
+}
+
+.details-one {
+  letter-spacing: -0.01em;
+}
+
+.details-two {
+  letter-spacing: -0.04em;
+  max-width: 485px;
+}
+
+/* FOOTER ENDS HERE */

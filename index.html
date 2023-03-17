@@ -25,40 +25,45 @@
   </head>
 
   <body>
-    <!--test change-->
     <!--MOBILE NAVGIGATION-->
-    <!--
-      <header class="mobile-header">
-        <div class="mobile-logo">
-          <h2 class="mobile-name">Rassel</h2>
-        </div>
-        <nav class="mobile-nav" id="mobile-nav">
-          <img src="./images/1_mobile-humberger.png" alt="icon-hum" />
-        </nav>
-      </header>
-      -->
-
+    <header class="mobile-header">
+      <nav class="mobile-nav" id="mobile-nav">
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+      <div class="mobile-logo">
+        <img src="./images/1A_logo_mobile.png" alt="icon-hum" />
+      </div>
+      <span>.</span>
+    </header>
+    
     <!-- MOBILE MENU GOES HERE -->
-    <!--
-      <section id="mobile-menu" class="mobile-menu invisible">
-        <div class="menu">
-          <ul>
-            <li id="mobile-portfolio">
-              <a href="#portfolio">Portfolio</a><img src="./images/mobile-menu-bar.svg" />
-            </li>
-            <li id="mobile-about">
-              <a href="#about-me">About</a><img src="./images/mobile-menu-bar.svg" />
-            </li>
-            <li id="mobile-contact">
-              <a href="#contact">Contact</a><img src="./images/mobile-menu-bar.svg" />
-            </li>
-          </ul>
-          <div class="close-menu" id="close-menu">
-            <img src="./images/mobile-menu-close.svg" alt="close menu button" />
-          </div>
+    <section id="mobile-menu" class="mobile-menu invisible">
+      <div class="menu">
+        <ul>
+          <li id="mobile-portfolio">
+            <a href="about.html">About</a><img src="./images/mobile-menu-bar.svg" />
+          </li>
+          <li id="mobile-about">
+            <a href="#program">Program</a><img src="./images/mobile-menu-bar.svg" />
+          </li>
+          <li id="mobile-contact">
+            <a href="#join">Join</a><img src="./images/mobile-menu-bar.svg" />
+          </li>
+          <li id="mobile-portfolio">
+            <a href="#sponsor">Sponsor</a><img src="./images/mobile-menu-bar.svg" />
+          </li>
+          <li id="mobile-about">
+            <a href="#news">News</a><img src="./images/mobile-menu-bar.svg" />
+          </li>
+          <li id="mobile-contact">
+            <a class="cccampaign" id="btn-nav" href="#">CC Campaign</a>
+          </li>
+        </ul>
+        <div class="close-menu" id="close-menu">
+          <i class="fa-solid fa-xmark"></i>
         </div>
-      </section>
-      -->
+      </div>
+    </section>
     <!--DESKTOP NAVGIGATION-->
     <nav class="top-navbar" >
       <div class="top-nav-container">
@@ -74,10 +79,11 @@
     <header class="navbar-desktop" id="desktop-navbar">
       <div class="desktop-navbar-container">
         <!-- <i class="fa-solid fa-bars" id="menu-icon"></i> -->
-        <div class="desktop-navbar-logo">
-          <a href="index.html"><img class="logo-nav" src="./images/1B_logo_desktop.png" alt="CC Global logo"></a>
-        </div>
+       
         <div class="desktop-nav-list">      
+          <div class="desktop-navbar-logo">
+            <a href="index.html"><img class="logo-nav" src="./images/1B_logo_desktop.png" alt="CC Global logo"></a>
+          </div>
           <ul class="nav-list">
             <li><a class="nav-list-about" href="about.html">About</a></li><br>
             <li><a class="nav-list-program" href="#main-program">Program</a></li><br>
@@ -209,6 +215,10 @@
         <div class="select-whole-program-container">
           <h4 class="select-whole-program">SEE WHOLE PROGRAM</h4>
         </div>
+        <div class="join-cc-global-container">
+          <h4 class="join-cc-global">Join CC Global Summit 2023</h4>
+        </div>
+
       </section>
       <!-- Main Program Section Ends Here-->
       <!-- Featured Speakers Starts Here Dynamically created-->      
@@ -230,19 +240,19 @@
           <hr class="partners-line">
         </div>
         <div class="sponsors">
-          <div class="mozilla">
+          <div class="sponsors-mozilla">
             <img class="mozilla" src="./images/6A_mozilla.png" alt="Mozila icon">
           </div>
-          <div class="mozilla">
+          <div class="sponsors-google">
             <img class="google" src="./images/6B_googlekorea.png" alt="Google icon">
           </div>
-          <div class="mozilla">
+          <div class="sponsors-naver">
             <img class="naver" src="./images/6C_naver.png" alt="Naver icon">
           </div>
-          <div class="mozilla">
+          <div class="sponsors-daumkakao">
             <img class="daumkakao" src="./images/6D_daumkakaologo.png" alt="daumkakao icon">
           </div>
-          <div class="mozilla">
+          <div class="sponsors-airbnb">
             <img class="airbnb" src="./images/6E_airbnb.png" alt="Airbnb icon">
           </div>
         </div>
@@ -267,6 +277,7 @@
     </main>
     <!--Feature Speaker JavaScript-->
     <script src="./javascript/speakers.js"> </script>
+    <script src="./javascript/mobile-menu.js"> </script>
   </body>
 </html>
 

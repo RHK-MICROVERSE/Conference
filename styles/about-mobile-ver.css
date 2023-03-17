@@ -1,6 +1,8 @@
-/* SECTION ONE STARTS HERE */
+@media screen and (max-width: 768px) {
+  .logo-nav {
+    display: none;
+  }
 
-@media screen and (min-width: 769px) {
   /* SECTION ONE ENDS HERE */
 
   .about-section-one {
@@ -25,16 +27,16 @@
     -webkit-background-clip: text;
     color: transparent;
     background-image: url('../images/red\ sun.jpg');
-    padding-top: 115px;
-    padding-left: 0;
-    padding-right: 0;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
   .about-message-container {
-    margin-top: 77px;
-    padding: 15px 35px;
+    margin-top: 24px;
+    padding: 15px 20px;
     background: #fff;
-    width: 70%;
+    width: 95%;
   }
 
   .about-message-text {
@@ -49,21 +51,23 @@
   }
 
   .contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: auto;
+    width: 95%;
   }
 
   .contact-details {
-    display: flex;
-    flex-direction: column;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 25px;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
     color: #7a7a7a;
+    width: 60%;
   }
 
   .detail-email {
@@ -72,9 +76,6 @@
     font-weight: 800;
     font-size: 17px;
     line-height: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
     text-decoration-line: underline;
@@ -99,9 +100,11 @@
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
-    line-height: 30px;
+    line-height: 40px;
     letter-spacing: -0.03em;
     padding-bottom: 20px;
+    text-align: center;
+    width: 57%;
   }
 
   .para {
@@ -142,10 +145,11 @@
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    line-height: 28px;
+    line-height: 42px;
     letter-spacing: -0.03em;
     color: #2c2c2c;
     padding-bottom: 20px;
+    padding-top: 50px;
   }
 
   .last-para {
@@ -153,65 +157,61 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 31px;
     text-align: center;
     letter-spacing: -0.03em;
+    padding-bottom: 50px;
+    width: 63%;
   }
 
   .last-section-pics {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
   }
 
   .conference-pic {
     max-width: 300px;
   }
 
-  .partners-master {
+  /* LAST SECTION ENDS HERE */
+
+  .about-footer {
     display: none;
   }
 
-  /* LAST SECTION ENDS HERE */
-
   /* FOOTER STARTS HERE */
-
-  .about-footer-container {
+  footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    background: #2e2e2e;
+    background: #f2f2f2;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 28px;
+    padding-top: 54px;
     padding-bottom: 30px;
-    width: 100%;
   }
 
-  .about-logo-footer {
-    width: 400px;
+  .logo-footer {
+    width: 200px;
+    height: auto;
   }
 
-  .about-details-one {
+  .details-one {
     letter-spacing: -0.01em;
-    color: white;
   }
 
-  .about-details-two {
+  .details-two {
     letter-spacing: -0.04em;
-    max-width: 80%;
-    color: white;
+    max-width: 485px;
   }
 
   /* FOOTER ENDS HERE */
-
-  .about-foote-mobile-only {
-    display: none;
-  }
 }

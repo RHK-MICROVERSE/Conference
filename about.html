@@ -23,44 +23,50 @@
   <link rel="stylesheet" href="./styles/mobile.css" />
   <link rel="stylesheet" href="./styles/desktop.css" />
   <link rel="stylesheet" href="./styles/about.css" />
+  <link rel="stylesheet" href="./styles/about-mobile-ver.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
 </head>
 
 <body>
-  <!--test change-->
   <!--MOBILE NAVGIGATION-->
-  <!--
-      <header class="mobile-header">
-        <div class="mobile-logo">
-          <h2 class="mobile-name">Rassel</h2>
-        </div>
-        <nav class="mobile-nav" id="mobile-nav">
-          <img src="./images/1_mobile-humberger.png" alt="icon-hum" />
-        </nav>
-      </header>
-      -->
-
+  <header class="mobile-header">
+    <nav class="mobile-nav" id="mobile-nav">
+      <i class="fa-solid fa-bars"></i>
+    </nav>
+    <div class="mobile-logo">
+      <a href="index.html"><img src="./images/1A_logo_mobile.png" alt="Conference logo" /></a>
+    </div>
+    <span>.</span>
+  </header>
+  
   <!-- MOBILE MENU GOES HERE -->
-  <!--
-      <section id="mobile-menu" class="mobile-menu invisible">
-        <div class="menu">
-          <ul>
-            <li id="mobile-portfolio">
-              <a href="#portfolio">Portfolio</a><img src="./images/mobile-menu-bar.svg" />
-            </li>
-            <li id="mobile-about">
-              <a href="#about-me">About</a><img src="./images/mobile-menu-bar.svg" />
-            </li>
-            <li id="mobile-contact">
-              <a href="#contact">Contact</a><img src="./images/mobile-menu-bar.svg" />
-            </li>
-          </ul>
-          <div class="close-menu" id="close-menu">
-            <img src="./images/mobile-menu-close.svg" alt="close menu button" />
-          </div>
-        </div>
-      </section>
-      -->
+  <section id="mobile-menu" class="mobile-menu invisible">
+    <div class="menu">
+      <ul>
+        <li id="mobile-portfolio">
+          <a href="about.html">About</a><img src="./images/mobile-menu-bar.svg" />
+        </li>
+        <li id="mobile-about">
+          <a href="#program">Program</a><img src="./images/mobile-menu-bar.svg" />
+        </li>
+        <li id="mobile-contact">
+          <a href="#join">Join</a><img src="./images/mobile-menu-bar.svg" />
+        </li>
+        <li id="mobile-portfolio">
+          <a href="#sponsor">Sponsor</a><img src="./images/mobile-menu-bar.svg" />
+        </li>
+        <li id="mobile-about">
+          <a href="#news">News</a><img src="./images/mobile-menu-bar.svg" />
+        </li>
+        <li id="mobile-contact">
+          <a class="cccampaign" id="btn-nav" href="#">CC Campaign</a>
+        </li>
+      </ul>
+      <div class="close-menu" id="close-menu">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </div>
+  </section>
   <!--DESKTOP NAVGIGATION-->
   <nav class="top-navbar">
     <div class="top-nav-container">
@@ -103,7 +109,7 @@
           </h2>
         </div>
         <hr class="partners-line">
-        <div class="about-message">
+        <div class="about-message-container">
           <p class="about-message-text">
             The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons
             affiliate network in a different country every two years. This year, we hope to expand our invitation list including
@@ -123,49 +129,105 @@
         </div>
       </div>
     </section>
+    <!--Section One Ends here-->
+    <!--Middle Section Starts here-->
     <section class="middle-section">
-      <div class="middle-title">
-        <h1>Creative Commons Global Summit 2023 Logo</h1>
-      </div>
-      <hr class="partners-line">
-        <p class="para">The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July. After online public
-        voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize. After consultation with
-        Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:</p>
-      <div class="middle-logo">
-        <a href="index.html"><img class="logo-nav" src="./images/8A_about_middlelogo.png" alt="About middle logo"></a>
+      <div class="middle-section-container">
+        <div class="middle-title">
+          <h1>Creative Commons Global Summit 2023 Logo</h1>
+        </div>
+        <hr class="partners-line">
+          <p class="para">The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July. After online public
+          voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize. After consultation with
+          Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:</p>
+        <div class="about-middle-logo">
+          <a href="index.html"><img class="about-logo-nav" src="./images/8B_about_middlelogo.jpg" alt="About middle logo"></a>
+        </div>
+      </section>
+      <!--Middle Section Endss here-->
+      <!--Last Section Starts here-->
+      <section class="last-section">
+        <div class="last-section-container">
+          <div class="last-title">
+            <h1>See the past CC Global Summits</h1>
+          </div>
+          <hr class="partners-line">
+          <p class="last-para">Take a look at the past two CC Global Summits which took place in Buenos Aires and in Warsaw</p>
+          <div class="last-section-pics">
+            <div class="pic">
+              <img class="conference-pic" src="./images/9C_conference-picture-three.jpg" alt="Conference Picture one"></a>
+            </div>
+            <div class="pic">
+              <img class="conference-pic" src="./images/9B_conference_picture_2.jpg" alt="Conference Picture two"></a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="last-section">
-      <div class="last-title">
-        <h1>See the past CC Global Summits</h1>
+    <!--Last Section Ends here-->
+    <!--Only for mobile version-->
+    <!-- Partner Starts Here-->
+    <section class="partners-master" id="sponsour-partners">
+      <div class="partners-title-line">
+        <h4 class="partners-title">Partner</h4>
+        <hr class="partners-line">
       </div>
-      <hr class="partners-line">
-      <p class="last-para">Take a look at the past two CC Global Summits which took place in Buenos Aires and in Warsaw</p>
-      <div class="last-section-pics">
-        <div class="pic">
-          <img class="conference-pic" src="./images/9C_conference-picture-three.jpg" alt="Conference Picture one"></a>
+      <div class="sponsors">
+        <div class="sponsors-mozilla">
+          <img class="mozilla" src="./images/6A_mozilla.png" alt="Mozila icon">
         </div>
-        <div class="pic">
-          <img class="conference-pic" src="./images/9B_conference_picture_2.jpg" alt="Conference Picture two"></a>
+        <div class="sponsors-google">
+          <img class="google" src="./images/6B_googlekorea.png" alt="Google icon">
+        </div>
+        <div class="sponsors-naver">
+          <img class="naver" src="./images/6C_naver.png" alt="Naver icon">
+        </div>
+        <div class="sponsors-daumkakao">
+          <img class="daumkakao" src="./images/6D_daumkakaologo.png" alt="daumkakao icon">
+        </div>
+        <div class="sponsors-airbnb">
+          <img class="airbnb" src="./images/6E_airbnb.png" alt="Airbnb icon">
         </div>
       </div>
     </section>
+    <!-- Partner Starts Here-->
     <!--Footer Starts here-->
-    <footer>
-      <div class="about-footer-logo">
-        <img class="about-logo-footer" src="./images/10A_about_cck-logo1 1.png" alt="About Footer logo">
+    <section class="about-footer">
+      <div class="about-footer-container">
+        <div class="about-footer-logo">
+          <img class="about-logo-footer" src="./images/10A_about_cck-logo1 1.png" alt="About Footer logo">
+        </div>
+        <div class="about-footer-details">
+          <div class="about-details-one">
+            <p>2023 Creative Commons Korea. Some Rights Reserved.</p>
+          </div>
+          <div class="about-details-two">
+            <p>달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다. 자세한 이용기능 내용과 허락조건은
+              http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer Emds here-->
+    <!--Footer for mobile only Starts here-->
+    <footer class="about-foote-mobile-only">
+      <div class="footer-logo">
+        <img class="logo-footer" src="./images/7A_cck-logo.png" alt="Footer logo">
       </div>
       <div class="footer-details">
-        <div class="about-details-one">
+        <div class="details-one">
           <p>2023 Creative Commons Korea. Some Rights Reserved.</p>
         </div>
-        <div class="about-details-two">
+        <div class="details-two">
           <p>달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다. 자세한 이용기능 내용과 허락조건은
             http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
         </div>
       </div>
     </footer>
     <!--Footer Emds here-->
+
+
   </main>
+  <script src="./javascript/mobile-menu.js"> </script>
 </body>
 </html>
