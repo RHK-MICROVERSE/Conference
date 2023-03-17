@@ -155,7 +155,7 @@ This project is deployed at github pages you can clone it here. [Please click to
 
 - [ ] **The modal part of the portfolio will be added.**
 - [ ] **Links to project showcases will be active with JavaScript**
-- [ ] **Will add educational background in the portfolio page**
+- [ ] **Will add some background **
 
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -176,7 +176,7 @@ If you like this project give a star to this repositiory.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse full-stack curriculum for the inspiration and guidance.
+I would like to thank the Microverse full-stack curriculum for the inspiration and guidance. Original design idea by Cindy Shin in Behance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
