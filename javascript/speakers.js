@@ -26,7 +26,7 @@ const speakerFeatures = [
     image: './images/4D_speaker_04.png',
     imagename: 'Speaker four Julia Leda',
     occupation: 'President of Young Pirates of Europe',
-    details:'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',   
+    details: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
   },
   {
     name: 'Lila tretikov',
@@ -62,7 +62,7 @@ speakerFeatures.forEach((item) => {
                         <p>${item.details}</p>
                       </div>
                     </div>
-                </div>`
-  master.innerHTML += card;
+                </div>`;
 
+  master.innerHTML += card;
 });
