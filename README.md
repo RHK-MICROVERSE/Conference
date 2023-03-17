@@ -162,7 +162,7 @@ This project is deployed at github pages you can clone it here. [Please click to
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/RHK-MICROVERSE/My-Portfolio/issues).
+Feel free to check the [issues page](https://github.com/RHK-MICROVERSE/Conference/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
