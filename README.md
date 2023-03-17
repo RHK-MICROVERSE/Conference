@@ -47,6 +47,7 @@ Conference: mobile-first approach & responsive on desktop version and bigger siz
 
 ## 🛠 Walk through <a name="walk-through"></a>
 <ul>
+  <li><a href="https://www.loom.com/share/f73a4a370dd74f4e924a1a378b8d5310">Watch the video to see the difficult sections and solution of that</a></li>
   <li><a href="https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md">See the Project Requirement</a></li>
   <li>You should personalize the content of your page. Choose a topic that is different than the one in the original design</li>
   <li><a href="https://www.figma.com/file/V0vg37EZhAbP9nUPOeCy6p/HTML%2FCSS-%26-JavaScript-capstone-project---Conference-page?node-id=318%3A3&t=hYVDqW7zevqWK9z7-0">Assets are avialbe in Figma</a></li>
