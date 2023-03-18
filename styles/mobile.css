@@ -488,7 +488,7 @@
 /* PARTNER ENDS HERE */
 
 /* FOOTER STARTS HERE */
-footer {
+.index-footer-master {
   display: flex;
   flex-direction: row;
   justify-content: center;

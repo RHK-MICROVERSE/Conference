@@ -1,7 +1,5 @@
-/* SECTION ONE STARTS HERE */
-
 @media screen and (min-width: 769px) {
-  /* SECTION ONE ENDS HERE */
+  /* SECTION ONE STARTS HERE */
 
   .about-section-one {
     color: rgb(255, 64, 0);
@@ -115,6 +113,7 @@
     max-width: 759px;
     align-self: center;
     padding-top: 40px;
+    color: #d3d3d3;
   }
 
   .about-middle-logo {
@@ -166,8 +165,37 @@
     gap: 30px;
   }
 
-  .conference-pic {
-    max-width: 300px;
+  .pic {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 350px;
+  }
+
+  .about-footer-one p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pic > p:first-child {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .pic > p:last-child {
+    font-size: 1rem;
+    color: white;
+  }
+
+  .one {
+    background: linear-gradient(rgba(38, 38, 38, 0), rgba(38, 38, 38, 0.5)), url(../images/9C_conference-picture-three.jpg) no-repeat;
+  }
+
+  .two {
+    background: linear-gradient(rgba(38, 38, 38, 0), rgba(38, 38, 38, 0.5)), url(../images/9B_conference_picture_2.jpg)  no-repeat;
   }
 
   .partners-master {
@@ -178,40 +206,32 @@
 
   /* FOOTER STARTS HERE */
 
+  .about-footer {
+    background-color: black;
+  }
+
   .about-footer-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    gap: 40px;
-    background: #2e2e2e;
+    justify-content: center;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 28px;
-    padding-bottom: 30px;
-    width: 100%;
+    color: white;
+    gap: 1rem;
+    padding: 3rem;
   }
 
   .about-logo-footer {
-    width: 400px;
-  }
-
-  .about-details-one {
-    letter-spacing: -0.01em;
-    color: white;
-  }
-
-  .about-details-two {
-    letter-spacing: -0.04em;
-    max-width: 80%;
-    color: white;
+    width: 70%;
   }
 
   /* FOOTER ENDS HERE */
 
-  .about-foote-mobile-only {
+  .about-footer-mobile-only {
     display: none;
   }
 }

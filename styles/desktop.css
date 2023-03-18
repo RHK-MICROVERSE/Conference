@@ -12,6 +12,12 @@ body {
     display: none;
   }
 
+  .top-navbar,
+  .top-nav-container,
+  .desktop-nav-list {
+    display: block;
+  }
+
   /* TOP NAV STARTS HERE */
   .top-navbar {
     margin: 0;

@@ -3,7 +3,7 @@
     display: none;
   }
 
-  /* SECTION ONE ENDS HERE */
+  /* SECTION ONE STARTS HERE */
 
   .about-section-one {
     color: rgb(255, 64, 0);
@@ -172,8 +172,32 @@
     gap: 50px;
   }
 
-  .conference-pic {
-    max-width: 300px;
+  .pic {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+  }
+
+  .pic > p:first-child {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .pic > p:last-child {
+    font-size: 1rem;
+    color: white;
+  }
+
+  .one {
+    background: linear-gradient(rgba(38, 38, 38, 0), rgba(38, 38, 38, 0.5)), url(../images/9C_conference-picture-three.jpg) no-repeat;
+  }
+
+  .two {
+    background: linear-gradient(rgba(38, 38, 38, 0), rgba(38, 38, 38, 0.5)), url(../images/9B_conference_picture_2.jpg)  no-repeat;
   }
 
   /* LAST SECTION ENDS HERE */
