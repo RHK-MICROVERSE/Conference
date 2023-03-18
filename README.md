@@ -47,6 +47,7 @@ Conference: mobile-first approach & responsive on desktop version and bigger siz
 
 ## 🛠 Walk through <a name="walk-through"></a>
 <ul>
+  <li><a href="https://www.loom.com/share/13e89c58705e445b82140246102e4236">Watch the video to see the difficult sections and solution of that</a></li>
   <li><a href="https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md">See the Project Requirement</a></li>
   <li>You should personalize the content of your page. Choose a topic that is different than the one in the original design</li>
   <li><a href="https://www.figma.com/file/V0vg37EZhAbP9nUPOeCy6p/HTML%2FCSS-%26-JavaScript-capstone-project---Conference-page?node-id=318%3A3&t=hYVDqW7zevqWK9z7-0">Assets are avialbe in Figma</a></li>
@@ -97,7 +98,7 @@ Conference: mobile-first approach & responsive on desktop version and bigger siz
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Live Demo Link]()
+[Live Demo Link](https://rhk-microverse.github.io/Conference/)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -155,14 +156,14 @@ This project is deployed at github pages you can clone it here. [Please click to
 
 - [ ] **The modal part of the portfolio will be added.**
 - [ ] **Links to project showcases will be active with JavaScript**
-- [ ] **Will add educational background in the portfolio page**
+- [ ] **Will add some background **
 
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/RHK-MICROVERSE/My-Portfolio/issues).
+Feel free to check the [issues page](https://github.com/RHK-MICROVERSE/Conference/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,7 +177,7 @@ If you like this project give a star to this repositiory.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse full-stack curriculum for the inspiration and guidance.
+I would like to thank the Microverse full-stack curriculum for the inspiration and guidance. Original design idea by Cindy Shin in Behance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
